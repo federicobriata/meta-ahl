@@ -18,7 +18,8 @@ do_install_append() {
     install -p -m 644 README.md ${D}${docdir}/foxdot/
     install -d -m 755 ${D}${docdir}/foxdot/demo/
     install -p -m 644 FoxDot/demo/* ${D}${docdir}/foxdot/demo/
-    install -p -m 755 ${WORKDIR}/foxdot.sh ${D}${bindir}/
+    install -p -m 755 ${WORKDIR}/start_foxdot.sh ${D}${bindir}/
+    install -p -m 755 ${WORKDIR}/foxdot.py ${D}${bindir}/
     install -d -m 755 ${D}/${datadir}/SuperCollider/Extensions/FoxDot/ 
     install -p -m 644 ${WORKDIR}/foxdot.scd ${D}/${datadir}/SuperCollider/Extensions/FoxDot/foxdot.scd
 }
