@@ -5,7 +5,8 @@ SRC_URI[sha256sum] = "1781005194062dd1808f92c674e738d17628b534a8f577d66d01cf1560
 LICENSE="CC-BY-SA-4.0"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/CC-BY-SA-3.0;md5=3248afbd148270ac7337a6f3e2558be5"
 SRC_URI = "file://foxdot.scd \
-	file://foxdot.sh"
+	file://start_foxdot.sh \
+	file://foxdot.py"
 
 PYPI_PACKAGE = "FoxDot"
 inherit pypi setuptools3
