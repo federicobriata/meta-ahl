@@ -11,7 +11,7 @@ SRC_URI = "file://foxdot.scd \
 PYPI_PACKAGE = "FoxDot"
 inherit pypi setuptools3
 
-DEPENDS = "supercollider sc3-plugins python3-tkinter"
+DEPENDS = "supercollider sc3-plugins ${PYTHON_PN}-setuptools-scm-native"
 RDEPENDS_${PN} += "bash"
 
 do_install_append() {
