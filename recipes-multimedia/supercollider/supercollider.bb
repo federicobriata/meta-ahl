@@ -2,12 +2,10 @@ DESCRIPTION = "SuperCollider is a programming language for real time audio synth
 HOMEPAGE = "http://supercollider.github.io/"
 LICENSE = "GPL-3.0"
 
-SRC_URI = "http://deb.debian.org/debian/pool/main/s/supercollider/supercollider_3.10.0+repack.orig.tar.xz"
-SRC_URI[sha256sum] = "bd9c0ed421a4dd1ef22bf7be2d974c15bc0fd79c02e002a0692ffa977c6ab6ad"
+SRC_URI = "gitsm://github.com/supercollider/supercollider;protocol=git;branch=3.8"
+SRCREV = "05f3d5ec8d9b0c7151951f1ae0f9885236e890fe"
 
-#SRC_URI = "gitsm://github.com/supercollider/supercollider;protocol=git;branch=3.10"
-
-S = "${WORKDIR}/SuperCollider-Source/"
+S = "${WORKDIR}/git/"
 
 LIC_FILES_CHKSUM = "file://${S}/COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
