@@ -1,7 +1,7 @@
 DESCRIPTION = "Python driven environment for Live Coding."
 HOMEPAGE = "http://foxdot.org/"
-SRC_URI[md5sum] = "cd17827f67fed38b922362cce58f4463"
-SRC_URI[sha256sum] = "1781005194062dd1808f92c674e738d17628b534a8f577d66d01cf15600e941e"
+SRC_URI[md5sum] = "853ed58e49a13bbc0e37cce3301d8217"
+SRC_URI[sha256sum] = "a9b87f9d0581e0d0304ebfb8e18f6d6bb01174c43d1cd5363410c25fa97462cc"
 LICENSE="CC-BY-SA-4.0"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/CC-BY-SA-3.0;md5=3248afbd148270ac7337a6f3e2558be5"
 SRC_URI = "file://foxdot.scd \
