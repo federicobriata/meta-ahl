@@ -1,0 +1,10 @@
+--- A/Makefile	2020-04-03 00:05:17.053565098 +0000
++++ B/Makefile	2020-04-03 00:05:35.217753063 +0000
+@@ -1,5 +1,5 @@
+-CC=gcc
+-CXX=g++
++#CC=gcc
++#CXX=g++
+ CFLAGS = -O2
+ 
+ OBJS = cursesclient.o

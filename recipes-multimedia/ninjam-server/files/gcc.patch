@@ -1,0 +1,13 @@
+--- A/Makefile	2020-03-31 22:37:02.591929654 +0000
++++ B/Makefile	2020-03-31 22:38:36.208901468 +0000
+@@ -6,8 +6,8 @@
+ CFLAGS += -pthread
+ endif
+ 
+-CC=gcc
+-CXX=g++
++#CC=gcc
++#CXX=g++
+ CXXFLAGS = $(CFLAGS)
+ 
+ OBJS = ../../WDL/jnetlib/asyncdns.o
